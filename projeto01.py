@@ -25,7 +25,7 @@ pdf = FPDF()
 
 pdf.add_page()
 pdf.set_font("Arial")
-
+# Posiciona a imagem na posição 0,0
 pdf.image("template.png", x=0, y=0)
 
 #coordenadas x e y + texto
